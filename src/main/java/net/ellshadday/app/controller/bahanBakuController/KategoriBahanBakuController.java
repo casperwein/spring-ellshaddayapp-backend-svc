@@ -20,8 +20,8 @@ public class KategoriBahanBakuController {
     @PostMapping
     public ResponseEntity<KategoriBahanBakuDto> createKategori(
             @RequestBody KategoriBahanBakuDto kategoriBahanBakuDto){
-        System.out.println("Controller /n" + kategoriBahanBakuDto);
-        return new ResponseEntity<>(kategoriBahanBakuService.createKategori(kategoriBahanBakuDto), HttpStatus.CREATED);
+        return new ResponseEntity<>(kategoriBahanBakuService.createKategori(kategoriBahanBakuDto),
+                HttpStatus.CREATED);
     }
 
     @GetMapping
