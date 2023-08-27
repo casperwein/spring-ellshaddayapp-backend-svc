@@ -45,36 +45,4 @@ public class KategoriBahanBaku {
     protected void onUpdate() {
         updatedAt = LocalDateTime.now();
     }
-
-    public long getId() {
-        return id;
-    }
-
-    public void setId(long id) {
-        this.id = id;
-    }
-
-    public String getNama() {
-        return nama;
-    }
-
-    public void setNama(String nama) {
-        this.nama = nama;
-    }
-
-    public String getKeterangan() {
-        return keterangan;
-    }
-
-    public void setKeterangan(String keterangan) {
-        this.keterangan = keterangan;
-    }
-
-    public Set<BahanBaku> getBahanBakus() {
-        return bahanBakus;
-    }
-
-    public void setBahanBakus(Set<BahanBaku> bahanBakus) {
-        this.bahanBakus = bahanBakus;
-    }
 }
