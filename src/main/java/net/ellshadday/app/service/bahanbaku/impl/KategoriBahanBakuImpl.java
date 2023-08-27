@@ -21,10 +21,8 @@ public class KategoriBahanBakuImpl implements KategoriBahanBakuService {
 
     @Override
     public KategoriBahanBakuDto createKategori(KategoriBahanBakuDto kategoriBahanBakuDto) {
-        System.out.println(kategoriBahanBakuDto);
 
         KategoriBahanBaku kategoriBahanBaku = mapToEntity(kategoriBahanBakuDto);
-        System.out.println(kategoriBahanBaku); // errornya disni
         KategoriBahanBaku newKategori = kategoriRepository.save(kategoriBahanBaku);
         KategoriBahanBakuDto kategoriRes = mapToDTO(newKategori);
 
