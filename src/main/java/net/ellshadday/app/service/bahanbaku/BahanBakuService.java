@@ -8,6 +8,5 @@ public interface BahanBakuService {
     BahanBakuDto createBahanBaku(long kategoriId, BahanBakuDto bahanBakuDto);
     List<BahanBakuDto> getBahanBakuByKodebahan(String kodebahan);
     List<BahanBakuDto> getAllBahanBaku();
-
     void deleteBahanBaku(String kodebahan);
 }

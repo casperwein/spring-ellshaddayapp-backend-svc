@@ -67,8 +67,8 @@ public class BahanBakuImpl implements BahanBakuService {
         bahanBakuDto.setWarna(bahanBaku.getWarna());
         bahanBakuDto.setRoll_ball_quantity(bahanBaku.getRoll_ball_quantity());
         bahanBakuDto.setGambar(bahanBaku.getGambar());
-        bahanBakuDto.setTotal_yard_kg(bahanBakuDto.getTotal_yard_kg());
-        bahanBakuDto.setYard_kg_clean(bahanBakuDto.getYard_kg_clean());
+        bahanBakuDto.setTotal_yard_kg(bahanBaku.getTotal_yard_kg());
+        bahanBakuDto.setYard_kg_clean(bahanBaku.getYard_kg_clean());
         bahanBakuDto.setYard_kg_sisa(bahanBaku.getYard_kg_sisa());
         bahanBakuDto.setSatuan(bahanBaku.getSatuan());
         bahanBakuDto.setUkuran(bahanBaku.getUkuran());
